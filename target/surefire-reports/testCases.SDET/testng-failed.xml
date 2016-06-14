@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [testCases.SDET]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="testCases.SDET">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="xpanxionHomepageNavbarNavigation"/>
+          <include name="setUpMethod"/>
+          <include name="tearDownClass"/>
+          <include name="tearDownMethod"/>
+          <include name="xpanxionHomepageFooterNavigation"/>
+        </methods>
+      </class> <!-- testCases.SDET -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [testCases.SDET] -->
