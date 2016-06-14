@@ -48,31 +48,31 @@ public class SDET {
     @Test (priority = 1)
     public void xpanxionHomepageNavbarNavigation() {
     driver.get(baseUrl);
-    WebElement myDynamicElement = (new WebDriverWait(driver, 10))
+    WebElement myDynamicElement = (new WebDriverWait(driver, 20))
         .until(ExpectedConditions.presenceOfElementLocated(xpanxionAbout_Navbar));
     driver.findElement(xpanxionAbout_Navbar).click();
     driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
     
     driver.navigate().back();
-    WebElement myDynamicElement1 = (new WebDriverWait(driver, 10))
+    WebElement myDynamicElement1 = (new WebDriverWait(driver, 20))
         .until(ExpectedConditions.presenceOfElementLocated(xpanxionAproach_Navbar));
     driver.findElement(xpanxionAproach_Navbar).click();
     driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
     
     driver.navigate().back();
-    WebElement myDynamicElement2 = (new WebDriverWait(driver, 10))
+    WebElement myDynamicElement2 = (new WebDriverWait(driver, 20))
         .until(ExpectedConditions.presenceOfElementLocated(xpanxionServices_Navbar));
     driver.findElement(xpanxionServices_Navbar).click();
     driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
     
     driver.navigate().back();
-    WebElement myDynamicElement3 = (new WebDriverWait(driver, 10))
+    WebElement myDynamicElement3 = (new WebDriverWait(driver, 20))
         .until(ExpectedConditions.presenceOfElementLocated(xpanxionCareers_Navbar));
     driver.findElement(xpanxionCareers_Navbar).click();
     driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
     
     driver.navigate().back();
-    WebElement myDynamicElement4 = (new WebDriverWait(driver, 10))
+    WebElement myDynamicElement4 = (new WebDriverWait(driver, 20))
         .until(ExpectedConditions.presenceOfElementLocated(xpanxionContact_Navbar));
     driver.findElement(xpanxionContact_Navbar).click();
     driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
@@ -82,31 +82,31 @@ public class SDET {
     @Test (priority = 2)
     public void xpanxionHomepageFooterNavigation() {
     driver.get(baseUrl);
-    WebElement myDynamicElement = (new WebDriverWait(driver, 10))
+    WebElement myDynamicElement = (new WebDriverWait(driver, 20))
         .until(ExpectedConditions.presenceOfElementLocated(xpanxionAbout_Footer));
     driver.findElement(xpanxionAbout_Footer).click();
     driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
     
     driver.navigate().back();
-    WebElement myDynamicElement11 = (new WebDriverWait(driver, 10))
+    WebElement myDynamicElement11 = (new WebDriverWait(driver, 20))
         .until(ExpectedConditions.presenceOfElementLocated(xpanxionOurstory_Footer));
     driver.findElement(xpanxionOurstory_Footer).click();
     driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
     
     driver.navigate().back();
-    WebElement myDynamicElement22 = (new WebDriverWait(driver, 10))
+    WebElement myDynamicElement22 = (new WebDriverWait(driver, 20))
         .until(ExpectedConditions.presenceOfElementLocated(xpanxionLocations_Footer));
     driver.findElement(xpanxionLocations_Footer).click();
     driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
     
     driver.navigate().back();
-    WebElement myDynamicElement33 = (new WebDriverWait(driver, 10))
+    WebElement myDynamicElement33 = (new WebDriverWait(driver, 20))
         .until(ExpectedConditions.presenceOfElementLocated(xpanxionMission_Footer));
     driver.findElement(xpanxionMission_Footer).click();
     driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
     
     driver.navigate().back();
-    WebElement myDynamicElement44 = (new WebDriverWait(driver, 10))
+    WebElement myDynamicElement44 = (new WebDriverWait(driver, 20))
         .until(ExpectedConditions.presenceOfElementLocated(xpanxionNews_Footer));
     driver.findElement(xpanxionNews_Footer).click();
     driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
